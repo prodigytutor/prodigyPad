@@ -15,7 +15,7 @@ import {
 } from '@/components/ui/form';
 import Link from 'next/link';
 import Image from 'next/image';
-import Logo from '../../../../public/cypresslogo.svg';
+import Logo from '../../../../public/ProdigyPadlogo.svg';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import Loader from '@/components/global/Loader';
@@ -64,7 +64,7 @@ const LoginPage = () => {
         >
           <Image
             src={Logo}
-            alt="cypress Logo"
+            alt="ProdigyPad Logo"
             width={50}
             height={50}
           />
@@ -72,7 +72,7 @@ const LoginPage = () => {
             className="font-semibold
           dark:text-white text-4xl first-letter:ml-2"
           >
-            cypress.
+            ProdigyPad.
           </span>
         </Link>
         <FormDescription

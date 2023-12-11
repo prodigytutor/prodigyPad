@@ -1,6 +1,6 @@
 # Build a SaaS App with Realtime cursors, Nextjs 13, Stripe, Drizzle ORM, Tailwind, Supabase, Sockets
 
-![Application Logo](https://raw.githubusercontent.com/webprodigies/webprodigies-cypress/main/public/cover.png)
+![Application Logo](https://raw.githubusercontent.com/webprodigies/webprodigies-ProdigyPad/main/public/cover.png)
 
 
 | 🟢 Full Video | 🔴 Demo |

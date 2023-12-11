@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import React from 'react';
 import { twMerge } from 'tailwind-merge';
-import CypressHomeIcon from '../icons/cypressHomeIcon';
-import CypressSettingsIcon from '../icons/cypressSettingsIcon';
-import CypressTrashIcon from '../icons/cypressTrashIcon';
+import ProdigyPadHomeIcon from '../icons/ProdigyPadHomeIcon';
+import ProdigyPadSettingsIcon from '../icons/ProdigyPadSettingsIcon';
+import ProdigyPadTrashIcon from '../icons/ProdigyPadTrashIcon';
 import Settings from '../settings/settings';
 import Trash from '../trash/trash';
 
@@ -29,7 +29,7 @@ const NativeNavigation: React.FC<NativeNavigationProps> = ({
           "
             href={`/dashboard/${myWorkspaceId}`}
           >
-            <CypressHomeIcon />
+            <ProdigyPadHomeIcon />
             <span>My Workspace</span>
           </Link>
         </li>
@@ -44,7 +44,7 @@ const NativeNavigation: React.FC<NativeNavigationProps> = ({
             cursor-pointer
           "
           >
-            <CypressSettingsIcon />
+            <ProdigyPadSettingsIcon />
             <span>Settings</span>
           </li>
         </Settings>
@@ -58,7 +58,7 @@ const NativeNavigation: React.FC<NativeNavigationProps> = ({
             gap-2
           "
           >
-            <CypressTrashIcon />
+            <ProdigyPadTrashIcon />
             <span>Trash</span>
           </li>
         </Trash>

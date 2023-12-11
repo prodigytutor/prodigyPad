@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 
-interface CypressTemplateIconProps {}
-const CypressTemplateIcon: FC<CypressTemplateIconProps> = () => {
+interface ProdigyPadTemplateIconProps {}
+const ProdigyPadTemplateIcon: FC<ProdigyPadTemplateIconProps> = () => {
   return (
     <svg
       width="24"
@@ -26,4 +26,4 @@ const CypressTemplateIcon: FC<CypressTemplateIconProps> = () => {
   );
 };
 
-export default CypressTemplateIcon;
+export default ProdigyPadTemplateIcon;
